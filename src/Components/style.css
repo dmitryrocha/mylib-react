@@ -86,9 +86,9 @@ html{
 }
 .search input{
     outline: 0;
-    border: 0;
+    border: 1;
     width: 350px;
-    height: 35px;
+    height: 31px;
     padding: 0 0.5rem;
     font-size: 15px;
     font-weight: bold;
