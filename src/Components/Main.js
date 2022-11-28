@@ -30,7 +30,7 @@ const Main = () => {
                             onChange={e => setSearch(e.target.value)}
                             onKeyPress={searchBook}
                         />
-                        <button type="button">Procurar</button>
+                        <button onClick={searchBook}><i className="fas fa-search"></i></button>
                     </div>
                     <img src="./images/bg2.png" alt="" />
                 </div>
